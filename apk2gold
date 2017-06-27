@@ -1,7 +1,10 @@
 #!/bin/sh
-MPATH=`dirname $0`
-FOLDER=`echo $1 | sed -e 's/\.apk//g'`
-$MPATH/apktool/apktool d -f $1
-mkdir $FOLDER/src
-mv $FOLDER/smali $FOLDER/.smali
-$MPATH/jadx/bin/jadx -d $FOLDER/src $1
+
+MPATH=$(dirname $0)
+FILE="$*"
+FOLDER="${FILE%.*}"
+echo "Folder: ${FOLDER}"
+$MPATH/apktool/apktool d -f "${FILE}"
+mkdir "${FOLDER}/src"
+mv "${FOLDER}/smali" "${FOLDER}/.smali"
+$MPATH/jadx/bin/jadx -d "${FOLDER}/src" "${FILE}"
