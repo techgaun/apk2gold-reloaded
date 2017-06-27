@@ -1,5 +1,6 @@
 # Easy-as-pie Android Decompiler
 
+This project is a fork of [apk2gold](https://github.com/lxdvs/apk2gold) which seems no longer maintained.
 ## Updates
 
 - apktool to 2.2.1 - [Adds Android Nougat support and other misc fixes](http://connortumbleson.com/2016/10/18/apktool-v2-2-1-released/).
@@ -27,12 +28,12 @@ apk2gold is basically a small amount of original content (the R.* thing) and a s
 
 ### Dependencies
 
-You'll need git if you're going to clone. Also, java installed. git is only necessary for cloning the repo. You can also download [zip file](https://github.com/nepalihackers/apk2gold-reloaded/archive/master.zip) instead of cloning.
+You'll need git if you're going to clone. Also, java installed. git is only necessary for cloning the repo. You can also download [zip file](https://github.com/techgaun/apk2gold-reloaded/archive/master.zip) instead of cloning.
 
 ### Installing
 
 ```shell
-git clone https://github.com/nepalihackers/apk2gold-reloaded $HOME/.apk2gold-reloaded
+git clone https://github.com/techgaun/apk2gold-reloaded $HOME/.apk2gold-reloaded
 echo "export PATH=$PATH:$HOME/.apk2gold-reloaded" >> ~/.bashrc
 source ~/.bashrc
 ```
