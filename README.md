@@ -3,8 +3,8 @@
 This project is a fork of [apk2gold](https://github.com/lxdvs/apk2gold) which seems no longer maintained.
 ## Updates
 
-- apktool to 2.2.1 - [Adds Android Nougat support and other misc fixes](http://connortumbleson.com/2016/10/18/apktool-v2-2-1-released/).
-- jadx 0.6.1 replacing dex2jar and jd-cmd
+- apktool to 2.3.3 - [Adds Android Nougat support and other misc fixes](http://connortumbleson.com/2016/10/18/apktool-v2-2-1-released/).
+- jadx 0.7.1 replacing dex2jar and jd-cmd
 
 ## Why
 ### One stop shop
