@@ -22,7 +22,7 @@ apk2gold is basically a small amount of original content (the R.* thing) and a s
 
 * **[skylot/jadx](https://github.com/skylot/jadx)**
 
-* **[apktool](https://github.com/iBotPeaches/Apktool)**
+* **[iBotPeaches/apktool](https://github.com/iBotPeaches/Apktool)**
 
 ## Installation
 
