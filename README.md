@@ -5,8 +5,8 @@ to replace with recent version of apktool and better tooling with jadx.
 
 ## Updates
 
-- apktool to 2.4.0 - [With Support for Android Pie](https://connortumbleson.com/2018/09/05/apktool-v2-3-4-released/).
-- jadx 1.0.0 replacing dex2jar and jd-cmd
+- apktool to 2.5.0 - [With Support for Android Pie](https://connortumbleson.com/2018/09/05/apktool-v2-3-4-released/).
+- jadx 1.2.0 replacing dex2jar and jd-cmd
 
 Original readme follows:
 
